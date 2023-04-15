@@ -1,0 +1,1 @@
+{"features": ["Unnamed: 0", "temp", "precip", "precipcover", "geohash6"], "targets": ["target"], "model_type": "xgboost", "target_mapping": {}}

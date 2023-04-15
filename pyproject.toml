@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ironhack"
+version = "0.1.0"
+description = ""
+authors = ["Valery Kochetkov <valery@kochetkov.it>"]
+packages = [{include = "poetry_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.0"
+ipykernel = "^6.22.0"
+jupyter = "^1.0.0"
+notebook = "^6.5.4"
+pygeohash = "^1.2.0"
+transformers = {extras = ["torch"], version = "^4.28.1"}
+torch = "^2.0.0"
+xgboost = "1.5.0"
+scikit-learn = "^1.2.2"
+joblib = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
